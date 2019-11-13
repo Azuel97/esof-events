@@ -93,19 +93,19 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = {\n    name: \"Calendar\"\n}\n\n//# sourceURL=webpack:///./src/calendar.js?");
+  eval("const test = 5 + 2\n\n\n\n\nmodule.exports = {\n  name: 'Calendar',\n  test: test\n}\n\n//# sourceURL=webpack:///./src/calendar.js?");
 
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("const Calendar = __webpack_require__(/*! ./calendar.js */ \"./src/calendar.js\")\n// ES6+\n// import Calendar from \"./calendar.js\"\n\nconsole.log('WEBPACK 1', Calendar)\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ })
-
-/******/ });
+  /***/ }),
+  
+  /***/ "./src/index.js":
+  /*!**********************!*\
+    !*** ./src/index.js ***!
+    \**********************/
+  /*! no static exports found */
+  /***/ (function(module, exports, __webpack_require__) {
+  
+  eval("const Calendar = __webpack_require__(/*! ./calendar.js */ \"./src/calendar.js\")\n// ES&+\n// import Calendar from './calendar.js'\n\n\nconsole.log('WEBPACK 1')\n\n//# sourceURL=webpack:///./src/index.js?");
+  
+  /***/ })
+  
+  /******/ });

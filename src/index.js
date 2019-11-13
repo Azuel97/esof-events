@@ -1,5 +1,5 @@
-const Calendar = require("./calendar.js")
-const Speaker = require("./speaker.js")
+const Calendar = require('./calendar.js')
+const Speakers = require('./speaker.js')
 
 Calendar.render()
-Speaker.render()
+Speakers.render()
