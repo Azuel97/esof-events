@@ -46,3 +46,8 @@ ion-item > ion-label {
 /*
 * END SPEAKER
 */
+
+#mapView {
+  width: 100vw;
+  height: 83vh;
+}
