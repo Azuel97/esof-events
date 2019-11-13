@@ -13,6 +13,7 @@
   <ion-app>
     <ion-tabs>
 
+
         <!-- Start Calendar -->
         <ion-tab tab="calendar">
             <ion-header translucent>
@@ -21,16 +22,28 @@
                 </ion-toolbar>
             </ion-header>
             <ion-content>
-                <ion-list id="calendar-data">
-                
-                </ion-list>
+                <ion-list id="calendar-data"></ion-list>
             </ion-content>
         </ion-tab>
         <!-- End Calendar -->
 
+
+        <!-- Start Speaker-->
         <ion-tab tab="speakers">
-            <h1>Speakers</h1>
+            <ion-header translucent>
+                <ion-toolbar>
+                    <ion-title>Speaker</ion-title>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content>
+                <ion-grid fixed id="speaker-data">
+                    <i-raw id="speaker-data"></i-raw>
+                </ion-grid>
+            </ion-content>
         </ion-tab>
+        <!-- End Speaker-->
+
+
         <ion-tab tab="map">
             <h1>Map</h1>
         </ion-tab>

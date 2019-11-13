@@ -38,5 +38,19 @@ module.exports = {
                 }
             ]
         }
+    ],
+    "speaker": [
+        {
+            "nome": "Mario Rossi",
+            "img": "https://www.placecage.com/640/280",
+            "intervento": "Colazione",
+            "desc": "bla bla bla bla caffè e cornetto"
+        },
+        {
+            "nome": "Luca Bianchi",
+            "img": "https://www.placecage.com/640/280",
+            "intervento": "Post Colazione",
+            "desc": "bla bla bla bla tramezzino"
+        }
     ]
 }
