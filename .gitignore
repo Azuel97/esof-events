@@ -1,5 +1,6 @@
 .DS_Storenpx 
 package-lock.json
+www/app.js
 
 # Logs
 logs
