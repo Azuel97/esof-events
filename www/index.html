@@ -24,13 +24,13 @@
     <ion-tabs id="tabs">
 
         <!-- START CALENDAR  -->
-        <ion-tab tab="calendar">
+        <ion-tab tab="calendar" id="calendaR">
             <ion-header translucent>
                 <ion-toolbar color="primary">
                     <ion-title>Schedule</ion-title>
                 </ion-toolbar>
             </ion-header>
-            <ion-content><ion-list id="calendarData"> </ion-list></ion-content>
+            <ion-content><ion-list id="calendarData"></ion-list></ion-content>
         </ion-tab>
         <!-- END  CALENDAR -->
 
@@ -53,10 +53,10 @@
         <!-- START MAP -->
         <ion-tab tab="map">
             <ion-header translucent>
-                    <ion-toolbar color="secondary">
-                        <ion-title>Map</ion-title>
-                    </ion-toolbar>
-                </ion-header>
+                <ion-toolbar color="primary">
+                    <ion-title>Map</ion-title>
+                </ion-toolbar>
+            </ion-header>
             <ion-content>
                 <div id="mapView">
                 </div>
@@ -64,9 +64,63 @@
         </ion-tab>
         <!-- END MAP-->
 
+        <!-- SATRT INFO -->
         <ion-tab tab="info">
-            <h1>Information</h1>
+            <ion-header translucent>
+                <ion-toolbar color="primary">
+                    <ion-title>Information</ion-title>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content>
+                <div class="about-header">
+                    <img src="https://www.units.it/sites/default/files/styles/slideshow_1170x425/public/media/immagini/notizie/trieste10.jpg?itok=xm54wuX_" alt="panorama di Trieste">
+                </div>
+                <div class="about-info">
+                    <h4 class="ion-padding-start">ESOF 2020</h4>
+                    <ion-list lines="none">
+                        <ion-item>
+                            <ion-icon name="calendar"></ion-icon>
+                            <ion-label>Date</ion-label>
+                            <ion-datetime display-format="D MMM, YYYY" value="2020-06-16"></i-datetime>
+                        </ion-item>
+                        <ion-item>
+                            <ion-icon name="pin"></ion-icon>
+                            <ion-label>Location</ion-label>
+                            Trieste, Italy
+                        </ion-item>
+                    </ion-list>
+                    <p>
+                        Trieste è stata scelta per l’organizzazione di ESOF 2020, la più rilevante manifestazione 
+                        europea focalizzata sul dibattito tra scienza, tecnologia, società e politica. La manifestazione 
+                        si svolgerà a Trieste da domenica 5 luglio a giovedì 9 luglio 2020. La candidatura è stata 
+                        proposta dalla nostra Fondazione.
+                    </p>
+                </div>
+                <!--
+                <ion-grid fixed>
+                    <ion-row>
+                        <ion-col size="12" md-size="6">
+                            <ion-card>
+                                <img src="http://www.sharper-night.it/wp-content/uploads/2018/07/trieste-ok.jpg">
+                                <ion-card-header>
+                                    <ion-card-subtitle>Trieste, Italia</ion-card-subtitle>
+                                    <ion-card-title>ESOF 2020</ion-card-title>
+                                </ion-card-header>
+                                <ion-card-content>
+                                    Trieste è il capoluogo della regione Friuli Venezia Giulia, nel nord-est d'Italia. 
+                                    Città di porto, occupa una sottile striscia di terra tra l'Adriatico e il confine sloveno, 
+                                    che corre lungo l'altipiano del Carso, caratterizzato da roccia calcarea. Le influenze italiane, 
+                                    austro-ungariche e slovene sono evidenti in tutta la città, che comprende un centro storico 
+                                    medievale e un quartiere neoclassico di epoca austriaca.
+                                </ion-card-content>
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>  -->  
+            </ion-content>
         </ion-tab>
+        <!-- END INFO -->
+
         <ion-tab-bar slot="bottom">
             <ion-tab-button tab="calendar">
                 <ion-label>Schedule</ion-label>
